@@ -1,0 +1,27 @@
+# CML一時ファイル
+*.log
+*.tmp
+.cml2_lab_cache/
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python関連
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# エディタ関連
+.vscode/
+.idea/
+*.swp
+*~
+
+# 個人情報
+*password*
+*secret*
+credentials.txt
