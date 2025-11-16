@@ -52,7 +52,7 @@ R1write memory
 
 ・Area 2のType 3 LSAに1.1.1.1が追加された（ADV Router: R3）
 
-・R4から1.1.1.1へのpingが成功 ✅
+・R4から1.1.1.1へのpingが成功
 
 
 
