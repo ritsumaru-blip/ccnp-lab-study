@@ -1,9 +1,9 @@
 R1#sh run
 Building configuration...
 
-Current configuration : 1087 bytes
+Current configuration : 1105 bytes
 !
-! Last configuration change at 06:32:51 UTC Sun Nov 16 2025
+! Last configuration change at 08:29:01 UTC Sun Nov 16 2025
 !
 version 17.16
 service timestamps debug datetime msec
@@ -74,6 +74,7 @@ spanning-tree mode rapid-pvst
 !
 interface Loopback0
  ip address 1.1.1.1 255.255.255.255
+ ip ospf 1 area 1
 !
 interface Loopback1
  ip address 1.1.2.1 255.255.255.255
